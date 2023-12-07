@@ -1,0 +1,75 @@
+#include<stdio.h>
+int main()
+{
+    printf("Hello\n");
+    printf("I am a\t programmer\n");
+    printf("You \\ Me?\n");
+    printf("100%% Right.");
+    return 0;
+}
+
+Hello 
+I am a programmer 
+
+Special character (ESCAPE)
+\n for new line 
+\t for tab 
+If we want to print "\" we need to use "\\" in printf function "%" also like this "%%".
+
+
+Vriable and Data Type.
+Je Data rakhe take variable bola hoy. 
+
+
+Data Type 
+1. int -----> -100, 0, 100
+2. float ---> -2.5, 5.56
+3. char ----> 'a', 'A', '@', 'H'
+4. bool ----> True or False 
+
+
+1 gb = 1024 mb
+1 mb = 1024 kb 
+1 kb = 1024 byte 
+1 byte = 8 bit 
+
+
+int = 4 byte or 32 bit. 
+
+1 bit = 0/1 thakte pare. 
+
+initialize bolte ekoi sathe declare + value assign korake bujhai. 
+
+Formet Specifier 
+%d = int
+%f = float
+%c = char
+
+User theke input newar jonno scanf("%d", &a) function use kora hoy. (here is %d for intiger specifier 
+and a is input value)
+
+
+Data type limitations
+int = 4 bytes
+log log int = 8 bytes
+float = 4 bytes
+double = 8 bytes
+
+
+Rules for naming varivales
+1. Variable name must start with a letter or underscore
+rahim 
+_rahim 
+@rahim (X)
+123rahim (X)
+
+2. Variable name must contain letter, digits or underscore
+rahim123
+rahim_123
+rahim 123 (X)
+rahim,karim (X)
+
+3. Keyword can't be used as variable 
+int (X)
+for(X)
+float(X)

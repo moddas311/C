@@ -1,0 +1,77 @@
+#Arithmetic Operators
+-->+, -, *, /, % they are Arithmetic symbols.
+
+
+#Relational Operator 
+1. < less than 
+2. <= less equal
+3. > grather than 
+4. >= grather equal
+5. == equal 
+6. != not equal
+
+
+#Logical Operator
+-->Logical Operator duita conditions er majhe bose.
+1. Logical && (and) 
+    T && T = T
+    T && F = F
+    F && T = F
+    F && F = F
+2. Logical || (or)
+    T || T = T
+    T || F = T
+    F || T = T
+    F || F = F
+
+Conditional Statement 
+--> Conditional statements in C are programming constructs that allow a program 
+to execute different blocks of code based on whether a certain condition is true or 
+false. The most common types of conditional statements in C are the if, else if, and 
+else statements.
+
+if(condition)
+    {
+        true hoyle ei part ta kaj korbe.
+    }
+else
+    {
+        condition true na hoyle ei part ta kaj korbe.
+    }
+
+
+If Else Ladder
+if(condition)
+    {
+        ekta condition full fil hoyle ei code execute hobe.
+    }
+    elseif(condition)
+    {
+        eitar condition full fill hoyle eitar code execute korbe.
+    }
+    else
+    {
+        cono condition full fill na hoyle eitar code execute hobe.
+    }
+
+N: B:  If Else Ladder conditional Statement e elseif onek gula hoyte pare.
+
+
+Nested Conditional Statement
+ekta condition er vitore aro condition thakle tokhon oitake bola hoy Nested If Else
+    if (condition)
+    {
+        Code execute hobe condition fill up hoyle
+       if(condition)
+       {
+        code execute hobe eitar condition fill up hoyle
+       }
+       else
+       {
+        Last 
+       }
+    }
+    else
+    {
+    Last code execute.
+    }

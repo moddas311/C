@@ -1,0 +1,33 @@
+#Loop 
+--> Loop mane hocche ekoi kaj bar bar kora like gura.
+C language e Loop 3 Types
+1. For loop 
+2. While loop and 
+3. Do while loop 
+
+#For loop syntax
+for(initialization; condition; inrement/decrement)
+{
+    //code 
+}
+
+
+1-n tomo poder jogfol = n*(n+1)/2.
+
+#While loop syntax
+
+initialization
+while(condition)
+{
+    //code
+}
+
+#Dowhile loop syntax
+
+initialization
+
+    do
+    {
+        // code
+        increment/decrement
+    } while (condition);
